@@ -1,0 +1,62 @@
+{% extends "shop/base.html" %}
+{% load static %}
+
+{% block title %}
+    <title>Регистрация | Транспозон</title>
+{% endblock %}
+
+{% block content %}
+    <div class="row mt-5 justify-content-center">
+        <div class="col col-lg-3">
+            <form class="text-center" href="{% url "signup" %}" method="post">
+                {% csrf_token %}
+                <img class="mb-4" src="{% static 'logo.svg' %}" alt="" width="72" height="72">
+
+                <h1 class="h3 mb-3 font-weight-normal">Регистрация</h1>
+                <small>{{ form.non_field_errors }}</small>
+
+                <div class="form-group">
+                    <label for="inputEmail" class="sr-only">E-mail</label>
+                    <input type="email" id="inputEmail"
+                           class="form-control {% if form.email.errors %}is-invalid{% endif %}" placeholder="E-mail"
+                           name="email"
+                           value="{{ form.data.email }}" required autofocus data-cip-id="inputEmail">
+                    <div class="invalid-feedback">
+                        {% for error in form.email.errors %}
+                            {{ error }}<br>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword1" class="sr-only">Password</label>
+                    <input type="password" id="inputPassword1"
+                           class="form-control {% if form.password1.errors %}is-invalid{% endif %}"
+                           placeholder="Пароль"
+                           value="{{ form.data.password1 }}"
+                           name="password1" required data-cip-id="inputPassword">
+                    <div class="invalid-feedback">
+                        {% for error in form.password1.errors %}
+                            {{ error }}<br>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword2" class="sr-only">Password</label>
+                    <input type="password" id="inputPassword2"
+                           class="form-control {% if form.password2.errors %}is-invalid{% endif %}"
+                           placeholder="Повторите пароль"
+                           value="{{ form.data.password2 }}"
+                           name="password2" required data-cip-id="inputPassword">
+                    <div class="invalid-feedback">
+                        {% for error in form.password2.errors %}
+                            {{ error }}<br>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Зарегистрироваться</button>
+                <p class="mt-5 mb-3 text-muted">© Просто магазин 2018</p>
+            </form>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends 'shop/base.html' %}
+{% load static %}
+{% load humanize %}
+
+{% block title %}
+    <title>Главная | Транспозон</title>
+{% endblock %}
+
+{% block content %}
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-4">Интернет-магазин Транспозон</h1>
+        </div>
+    </div>
+    <div class="container mb-5">
+        <div class="row">
+            {% for article in articles_phones %}
+                <div class="col-md-4">
+                    <small>{{ article.date_posted|naturalday }}</small>
+                    <a href="{{ article.get_absolute_url }}"><h3>{{ article.title }}</h3></a>
+                    <p>{{ article.text|truncatechars:"100" }}</p>
+                    <h4>Товары по теме:</h4>
+                    <ul>
+                        {% for product in article.products.all %}
+                            <li><a href="{{ product.get_absolute_url }}">
+                                <small>{{ product.title }}</small>
+                            </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

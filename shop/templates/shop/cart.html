@@ -1,0 +1,56 @@
+{% extends 'shop/base.html' %}
+{% load humanize %}
+{% load shoptags %}
+
+{% block title %}
+    <title>Корзина | Транспозон</title>
+{% endblock %}
+
+{% block content %}
+    <div class="container mt-3">
+
+        <div class="row">
+            <div class="col-lg-6 col-md-9 col-sm-12 order-md-2 mb-4">
+                <div class="d-flex mb-3">
+                    <h3>Ваша корзина</h3>
+                    {% if cart %}
+                        <a href="?clear=1" class="btn btn-danger ml-auto">Очистить корзину</a>
+                    {% endif %}
+                </div>
+                <ul class="list-group mb-3">
+                    {% for item in cart.items %}
+                        <li class="list-group-item">
+                            <div class="media">
+                                <img src="{{ item.image }}" class="mr-3" alt="{{ item.title }}"
+                                     width="64px">
+                                <div class="media-body text-muted">
+                                    <a class="mt-0" href="{{ item.url }}"><h6>{{ item.title }}</h6></a>
+                                    {{ item.description|truncatechars:"100" }}
+                                </div>
+                            </div>
+                            <hr class="mt-2 mb-1">
+                            <div class="d-flex justify-content-between">
+                                <span>Кол-во: {{ item.qty }} шт.</span>
+                                <span>{{ item.total_price|intcomma }} руб.</span>
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+                {% if cart %}
+                    <div class="d-flex justify-content-around mb-2">
+                        <h5 class="">Товаров в корзине:</h5>
+                        <h5 class="">{{ cart.item_qty }} шт.</h5>
+                    </div>
+                    <div class="d-flex justify-content-around mb-2">
+                        <h5 class="">Сумма заказа:</h5>
+                        <h5 class="">{{ cart.subtotal|intcomma }} руб.</h5>
+                    </div>
+                    <a href="{% url 'new-order' %}" type="submit" class="btn btn-block btn-success">Оформить заказ</a>
+                {% else %}
+                    <h4>Ваша корзина пуста.<br>Добавьте в нее что-нибудь!</h4>
+                {% endif %}
+            </div>
+        </div>
+
+    </div>
+{% endblock %}

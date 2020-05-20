@@ -1,0 +1,26 @@
+{% extends 'shop/base.html' %}
+{% load static %}
+
+{% block title %}
+    <title>{{ category_title }} | Транспозон</title>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1 class="display-4 text-center p-3">{{ category_title }}</h1>
+        <div class="row">
+            {% for subcategory in object_list %}
+                <div class="col-md-4">
+                    <a class="p-5" href="{{ subcategory.get_absolute_url }}">
+                        <h2>{{ subcategory.title }}</h2>
+                    </a>
+                </div>
+            {% endfor %}
+            {% if not object_list %}
+                <div class="alert alert-dark" role="alert">
+                    Тут пока ничего нет!
+                </div>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}

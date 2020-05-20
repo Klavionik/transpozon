@@ -1,0 +1,31 @@
+{% extends 'shop/base.html' %}
+{% load humanize %}
+{% block title %}
+    <title>{{ article.title }} | интернет-магазин</title>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col">
+                <div class="d-flex flex-column p-3">
+                    <h3 class="p-3">{{ article.title }}</h3>
+                    {{ article.text }}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h4>Подходящие товары:</h4>
+                <ul>
+                    {% for product in article.products.all %}
+                        <li>
+                            <a href="{{ product.get_absolute_url }}">{{ product.title }} {{ product.price|intcomma }} руб.</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+

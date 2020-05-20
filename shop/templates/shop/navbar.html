@@ -1,0 +1,58 @@
+{% load static %}
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="{% url 'index' %}">Транспозон</a>
+    <img src="{% static 'logo.svg' %}" alt="интернет-магазин" width="42" height="42">
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#mainNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'index' %}">
+                    Главная
+                </a>
+            </li>
+            {% for category in navbar_categories %}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="{{ category.get_absolute_url }}"
+                       id="dropdown01"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        {{ category.title }}</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        {% for subcategory in category.subcategories.all %}
+                            <a class="dropdown-item"
+                               href="{{ subcategory.get_absolute_url }}">
+                                {{ subcategory.title }}
+                            </a>
+                        {% endfor %}
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="btn btn-outline-light mx-1" role="button"
+                   href="{% url "signup" %}">
+                    Регистрация</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-outline-light mx-1" role="button"
+                   href="{% url 'cart' %}">
+                    Корзина</a>
+            </li>
+            <li class="nav-item">
+                {% if user.is_authenticated %}
+                    <a class="btn btn-outline-light mx-1" role="button"
+                       href="{% url 'logout' %}">
+                        Выйти</a>
+                {% else %}
+                    <a class="btn btn-outline-light mx-1" role="button"
+                       href="{% url 'login' %}">
+                        Войти</a>
+                {% endif %}
+            </li>
+        </ul>
+    </div>
+</nav>
