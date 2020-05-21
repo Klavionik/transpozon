@@ -1,56 +1,65 @@
-{% extends 'shop/base.html' %}
-{% load humanize %}
-
-{% block title %}
-    <title>{{ subcategory_title }} | Транспозон</title>
-{% endblock %}
-
-{% block content %}
-    <div class="container">
-        <h1 class="display-4 text-center p-3">{{ subcategory_title }}</h1>
-        <nav class="d-flex justify-content-center">
-            <ul class="pagination">
-                <li class="page-item {% if not page_obj.has_previous %}disabled{% endif %}">
-                    <a class="page-link" href="?page={% if page_obj.has_previous %}{{ page_obj.previous_page_number }}{% else %}1{% endif %}"
-                       aria-label="Previous">
-                        <span aria-hidden="true">&laquo;</span>
-                    </a>
-                </li>
-                {% for page in paginator.page_range %}
-                <li class="page-item {% if page == page_obj.number %}active{% endif %}"><a class="page-link" href="?page={{ page }}">{{ page }}</a></li>
-                {% endfor %}
-                <li class="page-item {% if not page_obj.has_next %}disabled{% endif %}">
-                    <a class="page-link"
-                       href="?page={% if page_obj.has_next %}{{ page_obj.next_page_number }}{% else %}{{ page_obj.number }}{% endif %}"
-                       aria-label="Next">
-                        <span aria-hidden="true">&raquo;</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <div class="row align-items-center">
-            {% for product in page_obj %}
-                <div class="col col-lg-4 ">
-                    <div class="d-flex flex-column align-items-center mb-5">
-                        <h5 class="p-1">{{ product.title }}</h5>
-                        <h5 class="p-1">{{ product.price|intcomma }} руб.</h5>
-                        <a href="{{ product.get_absolute_url }}">
-                            <img src="{{ product.image.url }}" alt='{{ product.title }}'
-                                 style="height: 300px; width: auto">
-                        </a>
-                        <button id="addToCart" type="button" class="btn btn-secondary mt-2"
-                                data-product-id="{{ product.id }}">Добавить в корзину »
-                        </button>
-                    </div>
-                </div>
-            {% endfor %}
-            {% if not page_obj %}
-                <div class="col">
-                    <div class="alert alert-dark text-center" role="alert">
-                        Тут пока ничего нет!
-                    </div>
-                </div>
-            {% endif %}
-        </div>
+{% extends 'shop/base.html' %} {% load humanize %} {% block title %}
+<title>{{ subcategory_title }} | Транспозон</title>
+{% endblock %} {% block content %}
+<div class="container">
+  <h1 class="display-4 text-center p-3">{{ subcategory_title }}</h1>
+  <nav class="d-flex justify-content-center">
+    <ul class="pagination">
+      <li class="page-item {% if not page_obj.has_previous %}disabled{% endif %}">
+        <a
+          class="page-link"
+          href="?page={% if page_obj.has_previous %}{{ page_obj.previous_page_number }}{% else %}1{% endif %}"
+          aria-label="Previous"
+        >
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      {% for page in paginator.page_range %}
+      <li class="page-item {% if page == page_obj.number %}active{% endif %}">
+        <a class="page-link" href="?page={{ page }}">{{ page }}</a>
+      </li>
+      {% endfor %}
+      <li class="page-item {% if not page_obj.has_next %}disabled{% endif %}">
+        <a
+          class="page-link"
+          href="?page={% if page_obj.has_next %}{{ page_obj.next_page_number }}{% else %}{{ page_obj.number }}{% endif %}"
+          aria-label="Next"
+        >
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div class="row align-items-center">
+    {% for product in page_obj %}
+    <div class="col col-lg-6">
+      <div class="d-flex flex-column align-items-center mb-5">
+        <h5 class="p-1">{{ product.title }}</h5>
+        <h5 class="p-1">{{ product.price|intcomma }} руб.</h5>
+        <a href="{{ product.get_absolute_url }}">
+          <img
+            src="{{ product.image.url }}"
+            alt="{{ product.title }}"
+            style="height: 300px; width: auto;"
+          />
+        </a>
+        <button
+          id="addToCart"
+          type="button"
+          class="btn btn-secondary mt-2"
+          data-product-id="{{ product.id }}"
+        >
+          Добавить в корзину »
+        </button>
+      </div>
     </div>
+    {% endfor %} {% if not page_obj %}
+    <div class="col">
+      <div class="alert alert-dark text-center" role="alert">
+        Тут пока ничего нет!
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</div>
 {% endblock %}

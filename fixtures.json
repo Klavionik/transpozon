@@ -1,1 +1,1457 @@
-[{"model": "contenttypes.contenttype", "pk": 1, "fields": {"app_label": "admin", "model": "logentry"}}, {"model": "contenttypes.contenttype", "pk": 2, "fields": {"app_label": "auth", "model": "permission"}}, {"model": "contenttypes.contenttype", "pk": 3, "fields": {"app_label": "auth", "model": "group"}}, {"model": "contenttypes.contenttype", "pk": 4, "fields": {"app_label": "contenttypes", "model": "contenttype"}}, {"model": "contenttypes.contenttype", "pk": 5, "fields": {"app_label": "sessions", "model": "session"}}, {"model": "contenttypes.contenttype", "pk": 6, "fields": {"app_label": "shop", "model": "user"}}, {"model": "contenttypes.contenttype", "pk": 7, "fields": {"app_label": "shop", "model": "category"}}, {"model": "contenttypes.contenttype", "pk": 8, "fields": {"app_label": "shop", "model": "order"}}, {"model": "contenttypes.contenttype", "pk": 9, "fields": {"app_label": "shop", "model": "subcategory"}}, {"model": "contenttypes.contenttype", "pk": 10, "fields": {"app_label": "shop", "model": "product"}}, {"model": "contenttypes.contenttype", "pk": 11, "fields": {"app_label": "shop", "model": "orderproducts"}}, {"model": "contenttypes.contenttype", "pk": 12, "fields": {"app_label": "shop", "model": "feedback"}}, {"model": "contenttypes.contenttype", "pk": 13, "fields": {"app_label": "shop", "model": "article"}}, {"model": "shop.product", "pk": 1, "fields": {"title": "Apple iPhone 11 128GB", "slug": "apple-iphone-11-128gb", "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam aliquid architecto atque blanditiis consectetur consequuntur dicta dolores dolorum ducimus ea error est excepturi exercitationem expedita explicabo facilis fugiat in iusto minus pariatur perspiciatis porro possimus quaerat, quod quos recusandae repellendus reprehenderit saepe similique tempora ut veritatis voluptatum!", "price": 64000, "image": "product_images/orig.webp", "category": 4, "subcategory": 8}}, {"model": "shop.product", "pk": 2, "fields": {"title": "Xiaomi Redmi Note 8 Pro 6 128GB", "slug": "xiaomi-redmi-note-8-pro-6-128gb", "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam aliquid architecto atque blanditiis consectetur consequuntur dicta dolores dolorum ducimus ea error est excepturi exercitationem expedita explicabo facilis fugiat in iusto minus pariatur perspiciatis porro possimus quaerat, quod quos recusandae repellendus reprehenderit saepe similique tempora ut veritatis voluptatum!", "price": 19990, "image": "product_images/orig_WyNRtSP.webp", "category": 4, "subcategory": 8}}, {"model": "shop.product", "pk": 3, "fields": {"title": "Samsung Galaxy A51 64GB", "slug": "samsung-galaxy-a51-64gb", "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam aliquid architecto atque blanditiis consectetur consequuntur dicta dolores dolorum ducimus ea error est excepturi exercitationem expedita explicabo facilis fugiat in iusto minus pariatur perspiciatis porro possimus quaerat, quod quos recusandae repellendus reprehenderit saepe similique tempora ut veritatis voluptatum!", "price": 16900, "image": "product_images/orig_YoTRNC5.webp", "category": 4, "subcategory": 8}}, {"model": "shop.product", "pk": 4, "fields": {"title": "Xiaomi Redmi Note 8 4/64GB", "slug": "xiaomi-redmi-note-8-464gb", "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam aliquid architecto atque blanditiis consectetur consequuntur dicta dolores dolorum ducimus ea error est excepturi exercitationem expedita explicabo facilis fugiat in iusto minus pariatur perspiciatis porro possimus quaerat, quod quos recusandae repellendus reprehenderit saepe similique tempora ut veritatis voluptatum!", "price": 12450, "image": "product_images/orig_UKlqjdx.webp", "category": 4, "subcategory": 8}}, {"model": "shop.product", "pk": 5, "fields": {"title": "HUAWEI P40", "slug": "huawei-p40", "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam aliquid architecto atque blanditiis consectetur consequuntur dicta dolores dolorum ducimus ea error est excepturi exercitationem expedita explicabo facilis fugiat in iusto minus pariatur perspiciatis porro possimus quaerat, quod quos recusandae repellendus reprehenderit saepe similique tempora ut veritatis voluptatum!", "price": 49900, "image": "product_images/orig_4vRGgzX.webp", "category": 4, "subcategory": 8}}, {"model": "shop.product", "pk": 6, "fields": {"title": "Samsung Galaxy A20", "slug": "samsung-galaxy-a20", "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam aliquid architecto atque blanditiis consectetur consequuntur dicta dolores dolorum ducimus ea error est excepturi exercitationem expedita explicabo facilis fugiat in iusto minus pariatur perspiciatis porro possimus quaerat, quod quos recusandae repellendus reprehenderit saepe similique tempora ut veritatis voluptatum!", "price": 11470, "image": "product_images/orig_lpVOZ0e.webp", "category": 4, "subcategory": 8}}, {"model": "shop.product", "pk": 7, "fields": {"title": "Google Pixel 3a 64GB", "slug": "google-pixel-3a-64gb", "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam aliquid architecto atque blanditiis consectetur consequuntur dicta dolores dolorum ducimus ea error est excepturi exercitationem expedita explicabo facilis fugiat in iusto minus pariatur perspiciatis porro possimus quaerat, quod quos recusandae repellendus reprehenderit saepe similique tempora ut veritatis voluptatum!", "price": 34900, "image": "product_images/orig_87y19ae.webp", "category": 4, "subcategory": 8}}, {"model": "shop.product", "pk": 8, "fields": {"title": "RALF Ringer", "slug": "ralf-ringer", "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam aliquid architecto atque blanditiis consectetur consequuntur dicta dolores dolorum ducimus ea error est excepturi exercitationem expedita explicabo facilis fugiat in iusto minus pariatur perspiciatis porro possimus quaerat, quod quos recusandae repellendus reprehenderit saepe similique tempora ut veritatis voluptatum!", "price": 5200, "image": "product_images/orig_eBsW7GT.webp", "category": 2, "subcategory": 3}}, {"model": "shop.product", "pk": 9, "fields": {"title": "Rieker", "slug": "rieker", "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam aliquid architecto atque blanditiis consectetur consequuntur dicta dolores dolorum ducimus ea error est excepturi exercitationem expedita explicabo facilis fugiat in iusto minus pariatur perspiciatis porro possimus quaerat, quod quos recusandae repellendus reprehenderit saepe similique tempora ut veritatis voluptatum!", "price": 4754, "image": "product_images/orig_1.webp", "category": 2, "subcategory": 3}}, {"model": "shop.product", "pk": 10, "fields": {"title": "Romer", "slug": "romer", "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam aliquid architecto atque blanditiis consectetur consequuntur dicta dolores dolorum ducimus ea error est excepturi exercitationem expedita explicabo facilis fugiat in iusto minus pariatur perspiciatis porro possimus quaerat, quod quos recusandae repellendus reprehenderit saepe similique tempora ut veritatis voluptatum!", "price": 3990, "image": "product_images/orig_2.webp", "category": 2, "subcategory": 3}}, {"model": "shop.product", "pk": 11, "fields": {"title": "ZTE Blade 20 Smart", "slug": "zte-blade-20-smart", "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam aliquid architecto atque blanditiis consectetur consequuntur dicta dolores dolorum ducimus ea error est excepturi exercitationem expedita explicabo facilis fugiat in iusto minus pariatur perspiciatis porro possimus quaerat, quod quos recusandae repellendus reprehenderit saepe similique tempora ut veritatis voluptatum!", "price": 10980, "image": "product_images/orig_lesQZeU.webp", "category": 4, "subcategory": 8}}, {"model": "shop.category", "pk": 1, "fields": {"title": "\u0421\u043f\u043e\u0440\u0442 \u0438 \u043e\u0442\u0434\u044b\u0445", "slug": "sport-i-otdyh"}}, {"model": "shop.category", "pk": 2, "fields": {"title": "\u041e\u0434\u0435\u0436\u0434\u0430 \u0438 \u043e\u0431\u0443\u0432\u044c", "slug": "odezhda-i-obuv"}}, {"model": "shop.category", "pk": 3, "fields": {"title": "\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u043d\u0430\u044f \u0442\u0435\u0445\u043d\u0438\u043a\u0430", "slug": "kompyuternaya-tehnika"}}, {"model": "shop.category", "pk": 4, "fields": {"title": "\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0438\u043a\u0430", "slug": "elektronika"}}, {"model": "shop.subcategory", "pk": 1, "fields": {"title": "\u0420\u0443\u0431\u0430\u0448\u043a\u0438", "slug": "rubashki", "category": 2}}, {"model": "shop.subcategory", "pk": 2, "fields": {"title": "\u041a\u043e\u0441\u0442\u044e\u043c\u044b", "slug": "kostyumy", "category": 2}}, {"model": "shop.subcategory", "pk": 3, "fields": {"title": "\u0422\u0443\u0444\u043b\u0438", "slug": "tufli", "category": 2}}, {"model": "shop.subcategory", "pk": 4, "fields": {"title": "\u041d\u043e\u0443\u0442\u0431\u0443\u043a\u0438", "slug": "noutbuki", "category": 3}}, {"model": "shop.subcategory", "pk": 5, "fields": {"title": "\u041c\u043e\u043d\u0438\u0442\u043e\u0440\u044b", "slug": "monitory", "category": 3}}, {"model": "shop.subcategory", "pk": 6, "fields": {"title": "\u041d\u0430\u0441\u0442\u043e\u043b\u044c\u043d\u044b\u0435 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u044b", "slug": "nastolnye-kompyutery", "category": 3}}, {"model": "shop.subcategory", "pk": 7, "fields": {"title": "\u041d\u0430\u0443\u0448\u043d\u0438\u043a\u0438", "slug": "naushniki", "category": 4}}, {"model": "shop.subcategory", "pk": 8, "fields": {"title": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b", "slug": "smartfony", "category": 4}}, {"model": "shop.subcategory", "pk": 9, "fields": {"title": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440\u044b", "slug": "televizory", "category": 4}}, {"model": "shop.subcategory", "pk": 10, "fields": {"title": "\u0422\u0440\u0435\u043d\u0430\u0436\u0435\u0440\u044b", "slug": "trenazhery", "category": 1}}, {"model": "shop.subcategory", "pk": 11, "fields": {"title": "\u0412\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u044b", "slug": "velosipedy", "category": 1}}, {"model": "shop.subcategory", "pk": 12, "fields": {"title": "\u0421\u043a\u0435\u0439\u0442\u0431\u043e\u0440\u0434\u044b", "slug": "skejtbordy", "category": 1}}, {"model": "shop.article", "pk": 1, "fields": {"title": "\u0412\u044b\u0431\u043e\u0440 \u043b\u0443\u0447\u0448\u0435\u0433\u043e \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u0430 \u0434\u043e 20 000 \u0440\u0443\u0431.", "subject": 8, "slug": "vybor-luchshego-smartfona-do-20-000-rub", "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci architecto corporis debitis dicta dignissimos dolore doloremque ducimus ea eligendi esse est ex facere illo itaque magni maxime modi molestias obcaecati omnis, optio pariatur qui reiciendis sapiente tenetur voluptas voluptate voluptates. Atque error fuga harum iusto necessitatibus non obcaecati officiis possimus sint suscipit. Alias exercitationem inventore, ipsa nemo nesciunt odit quas quo sit sunt temporibus? Alias blanditiis cum debitis dolores doloribus eaque et eveniet fugiat illo inventore maiores minus nemo neque nesciunt, nisi, perferendis perspiciatis quae voluptatum! Aperiam architecto aut beatae esse, molestiae numquam officia placeat qui, recusandae, reiciendis sit.", "date_posted": "2020-04-05T12:00:00Z", "products": [2, 3, 6]}}, {"model": "shop.article", "pk": 2, "fields": {"title": "\u0412\u044b\u0431\u043e\u0440 \u043f\u0440\u0435\u043c\u0438\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u0430", "subject": 8, "slug": "vybor-premialnogo-smartfona", "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci architecto corporis debitis dicta dignissimos dolore doloremque ducimus ea eligendi esse est ex facere illo itaque magni maxime modi molestias obcaecati omnis, optio pariatur qui reiciendis sapiente tenetur voluptas voluptate voluptates. Atque error fuga harum iusto necessitatibus non obcaecati officiis possimus sint suscipit. Alias exercitationem inventore, ipsa nemo nesciunt odit quas quo sit sunt temporibus? Alias blanditiis cum debitis dolores doloribus eaque et eveniet fugiat illo inventore maiores minus nemo neque nesciunt, nisi, perferendis perspiciatis quae voluptatum! Aperiam architecto aut beatae esse, molestiae numquam officia placeat qui, recusandae, reiciendis sit.", "date_posted": "2020-03-15T12:00:00Z", "products": [1, 5, 7]}}, {"model": "shop.article", "pk": 3, "fields": {"title": "\u041b\u0443\u0447\u0448\u0438\u0435 \u0431\u044e\u0434\u0436\u0435\u0442\u043d\u044b\u0435 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b \u044d\u0442\u043e\u0433\u043e \u0433\u043e\u0434\u0430", "subject": 8, "slug": "luchshie-byudzhetnye-smartfony-etogo-goda", "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci architecto corporis debitis dicta dignissimos dolore doloremque ducimus ea eligendi esse est ex facere illo itaque magni maxime modi molestias obcaecati omnis, optio pariatur qui reiciendis sapiente tenetur voluptas voluptate voluptates. Atque error fuga harum iusto necessitatibus non obcaecati officiis possimus sint suscipit. Alias exercitationem inventore, ipsa nemo nesciunt odit quas quo sit sunt temporibus? Alias blanditiis cum debitis dolores doloribus eaque et eveniet fugiat illo inventore maiores minus nemo neque nesciunt, nisi, perferendis perspiciatis quae voluptatum! Aperiam architecto aut beatae esse, molestiae numquam officia placeat qui, recusandae, reiciendis sit.", "date_posted": "2020-04-10T20:05:08.026Z", "products": [4, 6, 11]}}, {"model": "auth.permission", "pk": 1, "fields": {"name": "Can add log entry", "content_type": 1, "codename": "add_logentry"}}, {"model": "auth.permission", "pk": 2, "fields": {"name": "Can change log entry", "content_type": 1, "codename": "change_logentry"}}, {"model": "auth.permission", "pk": 3, "fields": {"name": "Can delete log entry", "content_type": 1, "codename": "delete_logentry"}}, {"model": "auth.permission", "pk": 4, "fields": {"name": "Can view log entry", "content_type": 1, "codename": "view_logentry"}}, {"model": "auth.permission", "pk": 5, "fields": {"name": "Can add permission", "content_type": 2, "codename": "add_permission"}}, {"model": "auth.permission", "pk": 6, "fields": {"name": "Can change permission", "content_type": 2, "codename": "change_permission"}}, {"model": "auth.permission", "pk": 7, "fields": {"name": "Can delete permission", "content_type": 2, "codename": "delete_permission"}}, {"model": "auth.permission", "pk": 8, "fields": {"name": "Can view permission", "content_type": 2, "codename": "view_permission"}}, {"model": "auth.permission", "pk": 9, "fields": {"name": "Can add group", "content_type": 3, "codename": "add_group"}}, {"model": "auth.permission", "pk": 10, "fields": {"name": "Can change group", "content_type": 3, "codename": "change_group"}}, {"model": "auth.permission", "pk": 11, "fields": {"name": "Can delete group", "content_type": 3, "codename": "delete_group"}}, {"model": "auth.permission", "pk": 12, "fields": {"name": "Can view group", "content_type": 3, "codename": "view_group"}}, {"model": "auth.permission", "pk": 13, "fields": {"name": "Can add content type", "content_type": 4, "codename": "add_contenttype"}}, {"model": "auth.permission", "pk": 14, "fields": {"name": "Can change content type", "content_type": 4, "codename": "change_contenttype"}}, {"model": "auth.permission", "pk": 15, "fields": {"name": "Can delete content type", "content_type": 4, "codename": "delete_contenttype"}}, {"model": "auth.permission", "pk": 16, "fields": {"name": "Can view content type", "content_type": 4, "codename": "view_contenttype"}}, {"model": "auth.permission", "pk": 17, "fields": {"name": "Can add session", "content_type": 5, "codename": "add_session"}}, {"model": "auth.permission", "pk": 18, "fields": {"name": "Can change session", "content_type": 5, "codename": "change_session"}}, {"model": "auth.permission", "pk": 19, "fields": {"name": "Can delete session", "content_type": 5, "codename": "delete_session"}}, {"model": "auth.permission", "pk": 20, "fields": {"name": "Can view session", "content_type": 5, "codename": "view_session"}}, {"model": "auth.permission", "pk": 21, "fields": {"name": "Can add \u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c", "content_type": 6, "codename": "add_user"}}, {"model": "auth.permission", "pk": 22, "fields": {"name": "Can change \u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c", "content_type": 6, "codename": "change_user"}}, {"model": "auth.permission", "pk": 23, "fields": {"name": "Can delete \u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c", "content_type": 6, "codename": "delete_user"}}, {"model": "auth.permission", "pk": 24, "fields": {"name": "Can view \u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c", "content_type": 6, "codename": "view_user"}}, {"model": "auth.permission", "pk": 25, "fields": {"name": "Can add \u0420\u0430\u0437\u0434\u0435\u043b", "content_type": 7, "codename": "add_category"}}, {"model": "auth.permission", "pk": 26, "fields": {"name": "Can change \u0420\u0430\u0437\u0434\u0435\u043b", "content_type": 7, "codename": "change_category"}}, {"model": "auth.permission", "pk": 27, "fields": {"name": "Can delete \u0420\u0430\u0437\u0434\u0435\u043b", "content_type": 7, "codename": "delete_category"}}, {"model": "auth.permission", "pk": 28, "fields": {"name": "Can view \u0420\u0430\u0437\u0434\u0435\u043b", "content_type": 7, "codename": "view_category"}}, {"model": "auth.permission", "pk": 29, "fields": {"name": "Can add \u0417\u0430\u043a\u0430\u0437", "content_type": 8, "codename": "add_order"}}, {"model": "auth.permission", "pk": 30, "fields": {"name": "Can change \u0417\u0430\u043a\u0430\u0437", "content_type": 8, "codename": "change_order"}}, {"model": "auth.permission", "pk": 31, "fields": {"name": "Can delete \u0417\u0430\u043a\u0430\u0437", "content_type": 8, "codename": "delete_order"}}, {"model": "auth.permission", "pk": 32, "fields": {"name": "Can view \u0417\u0430\u043a\u0430\u0437", "content_type": 8, "codename": "view_order"}}, {"model": "auth.permission", "pk": 33, "fields": {"name": "Can add \u041f\u043e\u0434\u0440\u0430\u0437\u0434\u0435\u043b", "content_type": 9, "codename": "add_subcategory"}}, {"model": "auth.permission", "pk": 34, "fields": {"name": "Can change \u041f\u043e\u0434\u0440\u0430\u0437\u0434\u0435\u043b", "content_type": 9, "codename": "change_subcategory"}}, {"model": "auth.permission", "pk": 35, "fields": {"name": "Can delete \u041f\u043e\u0434\u0440\u0430\u0437\u0434\u0435\u043b", "content_type": 9, "codename": "delete_subcategory"}}, {"model": "auth.permission", "pk": 36, "fields": {"name": "Can view \u041f\u043e\u0434\u0440\u0430\u0437\u0434\u0435\u043b", "content_type": 9, "codename": "view_subcategory"}}, {"model": "auth.permission", "pk": 37, "fields": {"name": "Can add \u0422\u043e\u0432\u0430\u0440", "content_type": 10, "codename": "add_product"}}, {"model": "auth.permission", "pk": 38, "fields": {"name": "Can change \u0422\u043e\u0432\u0430\u0440", "content_type": 10, "codename": "change_product"}}, {"model": "auth.permission", "pk": 39, "fields": {"name": "Can delete \u0422\u043e\u0432\u0430\u0440", "content_type": 10, "codename": "delete_product"}}, {"model": "auth.permission", "pk": 40, "fields": {"name": "Can view \u0422\u043e\u0432\u0430\u0440", "content_type": 10, "codename": "view_product"}}, {"model": "auth.permission", "pk": 41, "fields": {"name": "Can add \u0421\u043e\u0441\u0442\u0430\u0432 \u0437\u0430\u043a\u0430\u0437\u0430", "content_type": 11, "codename": "add_orderproducts"}}, {"model": "auth.permission", "pk": 42, "fields": {"name": "Can change \u0421\u043e\u0441\u0442\u0430\u0432 \u0437\u0430\u043a\u0430\u0437\u0430", "content_type": 11, "codename": "change_orderproducts"}}, {"model": "auth.permission", "pk": 43, "fields": {"name": "Can delete \u0421\u043e\u0441\u0442\u0430\u0432 \u0437\u0430\u043a\u0430\u0437\u0430", "content_type": 11, "codename": "delete_orderproducts"}}, {"model": "auth.permission", "pk": 44, "fields": {"name": "Can view \u0421\u043e\u0441\u0442\u0430\u0432 \u0437\u0430\u043a\u0430\u0437\u0430", "content_type": 11, "codename": "view_orderproducts"}}, {"model": "auth.permission", "pk": 45, "fields": {"name": "Can add \u041e\u0442\u0437\u044b\u0432", "content_type": 12, "codename": "add_feedback"}}, {"model": "auth.permission", "pk": 46, "fields": {"name": "Can change \u041e\u0442\u0437\u044b\u0432", "content_type": 12, "codename": "change_feedback"}}, {"model": "auth.permission", "pk": 47, "fields": {"name": "Can delete \u041e\u0442\u0437\u044b\u0432", "content_type": 12, "codename": "delete_feedback"}}, {"model": "auth.permission", "pk": 48, "fields": {"name": "Can view \u041e\u0442\u0437\u044b\u0432", "content_type": 12, "codename": "view_feedback"}}, {"model": "auth.permission", "pk": 49, "fields": {"name": "Can add \u0421\u0442\u0430\u0442\u044c\u044f", "content_type": 13, "codename": "add_article"}}, {"model": "auth.permission", "pk": 50, "fields": {"name": "Can change \u0421\u0442\u0430\u0442\u044c\u044f", "content_type": 13, "codename": "change_article"}}, {"model": "auth.permission", "pk": 51, "fields": {"name": "Can delete \u0421\u0442\u0430\u0442\u044c\u044f", "content_type": 13, "codename": "delete_article"}}, {"model": "auth.permission", "pk": 52, "fields": {"name": "Can view \u0421\u0442\u0430\u0442\u044c\u044f", "content_type": 13, "codename": "view_article"}}, {"model": "shop.user", "pk": 1, "fields": {"password": "pbkdf2_sha256$180000$8G308LAHdYQG$t6ZSu3NXRhHOVtTeaBO8zIDIGatAn/A8/1xkTKbFUpE=", "last_login": null, "is_superuser": true, "email": "admin@admin.ru", "date_joined": "2020-04-12", "is_staff": true, "is_active": true, "groups": [], "user_permissions": []}}]
+[
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "shop",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "shop",
+      "model": "category"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "shop",
+      "model": "order"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "shop",
+      "model": "subcategory"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "shop",
+      "model": "product"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "shop",
+      "model": "orderproducts"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+      "app_label": "shop",
+      "model": "feedback"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+      "app_label": "shop",
+      "model": "article"
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 1,
+    "fields": {
+      "title": "Apple iPhone 11 128GB",
+      "slug": "apple-iphone-11-128gb",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam aliquid architecto atque blanditiis consectetur consequuntur dicta dolores dolorum ducimus ea error est excepturi exercitationem expedita explicabo facilis fugiat in iusto minus pariatur perspiciatis porro possimus quaerat, quod quos recusandae repellendus reprehenderit saepe similique tempora ut veritatis voluptatum!",
+      "price": 64000,
+      "image": "product_images/orig.webp",
+      "category": 4,
+      "subcategory": 8
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 2,
+    "fields": {
+      "title": "Xiaomi Redmi Note 8 Pro 6 128GB",
+      "slug": "xiaomi-redmi-note-8-pro-6-128gb",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam aliquid architecto atque blanditiis consectetur consequuntur dicta dolores dolorum ducimus ea error est excepturi exercitationem expedita explicabo facilis fugiat in iusto minus pariatur perspiciatis porro possimus quaerat, quod quos recusandae repellendus reprehenderit saepe similique tempora ut veritatis voluptatum!",
+      "price": 19990,
+      "image": "product_images/orig_WyNRtSP.webp",
+      "category": 4,
+      "subcategory": 8
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 3,
+    "fields": {
+      "title": "Samsung Galaxy A51 64GB",
+      "slug": "samsung-galaxy-a51-64gb",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam aliquid architecto atque blanditiis consectetur consequuntur dicta dolores dolorum ducimus ea error est excepturi exercitationem expedita explicabo facilis fugiat in iusto minus pariatur perspiciatis porro possimus quaerat, quod quos recusandae repellendus reprehenderit saepe similique tempora ut veritatis voluptatum!",
+      "price": 16900,
+      "image": "product_images/orig_YoTRNC5.webp",
+      "category": 4,
+      "subcategory": 8
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 4,
+    "fields": {
+      "title": "Xiaomi Redmi Note 8 4/64GB",
+      "slug": "xiaomi-redmi-note-8-464gb",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam aliquid architecto atque blanditiis consectetur consequuntur dicta dolores dolorum ducimus ea error est excepturi exercitationem expedita explicabo facilis fugiat in iusto minus pariatur perspiciatis porro possimus quaerat, quod quos recusandae repellendus reprehenderit saepe similique tempora ut veritatis voluptatum!",
+      "price": 12450,
+      "image": "product_images/orig_UKlqjdx.webp",
+      "category": 4,
+      "subcategory": 8
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 5,
+    "fields": {
+      "title": "HUAWEI P40",
+      "slug": "huawei-p40",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam aliquid architecto atque blanditiis consectetur consequuntur dicta dolores dolorum ducimus ea error est excepturi exercitationem expedita explicabo facilis fugiat in iusto minus pariatur perspiciatis porro possimus quaerat, quod quos recusandae repellendus reprehenderit saepe similique tempora ut veritatis voluptatum!",
+      "price": 49900,
+      "image": "product_images/orig_4vRGgzX.webp",
+      "category": 4,
+      "subcategory": 8
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 6,
+    "fields": {
+      "title": "Samsung Galaxy A20",
+      "slug": "samsung-galaxy-a20",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam aliquid architecto atque blanditiis consectetur consequuntur dicta dolores dolorum ducimus ea error est excepturi exercitationem expedita explicabo facilis fugiat in iusto minus pariatur perspiciatis porro possimus quaerat, quod quos recusandae repellendus reprehenderit saepe similique tempora ut veritatis voluptatum!",
+      "price": 11470,
+      "image": "product_images/orig_lpVOZ0e.webp",
+      "category": 4,
+      "subcategory": 8
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 7,
+    "fields": {
+      "title": "Google Pixel 3a 64GB",
+      "slug": "google-pixel-3a-64gb",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam aliquid architecto atque blanditiis consectetur consequuntur dicta dolores dolorum ducimus ea error est excepturi exercitationem expedita explicabo facilis fugiat in iusto minus pariatur perspiciatis porro possimus quaerat, quod quos recusandae repellendus reprehenderit saepe similique tempora ut veritatis voluptatum!",
+      "price": 34900,
+      "image": "product_images/orig_87y19ae.webp",
+      "category": 4,
+      "subcategory": 8
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 8,
+    "fields": {
+      "title": "RALF Ringer",
+      "slug": "ralf-ringer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam aliquid architecto atque blanditiis consectetur consequuntur dicta dolores dolorum ducimus ea error est excepturi exercitationem expedita explicabo facilis fugiat in iusto minus pariatur perspiciatis porro possimus quaerat, quod quos recusandae repellendus reprehenderit saepe similique tempora ut veritatis voluptatum!",
+      "price": 5200,
+      "image": "product_images/orig_eBsW7GT.webp",
+      "category": 2,
+      "subcategory": 3
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 9,
+    "fields": {
+      "title": "Rieker",
+      "slug": "rieker",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam aliquid architecto atque blanditiis consectetur consequuntur dicta dolores dolorum ducimus ea error est excepturi exercitationem expedita explicabo facilis fugiat in iusto minus pariatur perspiciatis porro possimus quaerat, quod quos recusandae repellendus reprehenderit saepe similique tempora ut veritatis voluptatum!",
+      "price": 4754,
+      "image": "product_images/orig_1.webp",
+      "category": 2,
+      "subcategory": 3
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 10,
+    "fields": {
+      "title": "Romer",
+      "slug": "romer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam aliquid architecto atque blanditiis consectetur consequuntur dicta dolores dolorum ducimus ea error est excepturi exercitationem expedita explicabo facilis fugiat in iusto minus pariatur perspiciatis porro possimus quaerat, quod quos recusandae repellendus reprehenderit saepe similique tempora ut veritatis voluptatum!",
+      "price": 3990,
+      "image": "product_images/orig_2.webp",
+      "category": 2,
+      "subcategory": 3
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 11,
+    "fields": {
+      "title": "ZTE Blade 20 Smart",
+      "slug": "zte-blade-20-smart",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam aliquid architecto atque blanditiis consectetur consequuntur dicta dolores dolorum ducimus ea error est excepturi exercitationem expedita explicabo facilis fugiat in iusto minus pariatur perspiciatis porro possimus quaerat, quod quos recusandae repellendus reprehenderit saepe similique tempora ut veritatis voluptatum!",
+      "price": 10980,
+      "image": "product_images/orig_lesQZeU.webp",
+      "category": 4,
+      "subcategory": 8
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 12,
+    "fields": {
+      "title": "Sennheiser HD 206",
+      "slug": "sennheiser-hd-206",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et placeat nostrum quam, veniam quod, illo hic pariatur itaque qui delectus quos maxime, doloribus odio deserunt quis corrupti facere voluptas molestiae eaque eum culpa voluptatum! Architecto, velit repellat quae nobis molestias dignissimos quasi excepturi obcaecati illum itaque, iste ratione natus qui!",
+      "price": 1290,
+      "image": "product_images/hd206.webp",
+      "category": 4,
+      "subcategory": 7
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 13,
+    "fields": {
+      "title": "Sony MDR-7506",
+      "slug": "sony-mdr-7506",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, eius! Iusto, temporibus! Cumque, exercitationem asperiores assumenda pariatur vero ipsum quae ut dolorum, atque corporis veritatis quam dolore eius laboriosam praesentium facilis adipisci autem ducimus animi expedita aut, tenetur voluptatem neque ipsam. Eius soluta accusamus deleniti doloremque natus voluptate quam dolorem.",
+      "price": 8800,
+      "image": "product_images/mdr7506.webp",
+      "category": 4,
+      "subcategory": 7
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 14,
+    "fields": {
+      "title": "Audio-Technica ATH-M20x",
+      "slug": "audio-technica-ath-m20x",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat eaque tempora vel sunt. Molestias, culpa perspiciatis non voluptates, consectetur officiis quidem, repellat qui esse architecto obcaecati earum nesciunt? Nostrum optio natus quod similique fuga ut voluptatibus? Consequatur sit ab debitis, ut nesciunt a, expedita voluptatum dolorum repellendus quos cumque praesentium!",
+      "price": 4160,
+      "image": "product_images/mdr7506_3pJu4qV.webp",
+      "category": 4,
+      "subcategory": 7
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 15,
+    "fields": {
+      "title": "JBL C100SI",
+      "slug": "jbl-c100si",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat eaque tempora vel sunt. Molestias, culpa perspiciatis non voluptates, consectetur officiis quidem, repellat qui esse architecto obcaecati earum nesciunt? Nostrum optio natus quod similique fuga ut voluptatibus? Consequatur sit ab debitis, ut nesciunt a, expedita voluptatum dolorum repellendus quos cumque praesentium!",
+      "price": 599,
+      "image": "product_images/c100si.webp",
+      "category": 4,
+      "subcategory": 7
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 16,
+    "fields": {
+      "title": "Samsung EO-EG920",
+      "slug": "samsung-eo-eg920",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat eaque tempora vel sunt. Molestias, culpa perspiciatis non voluptates, consectetur officiis quidem, repellat qui esse architecto obcaecati earum nesciunt? Nostrum optio natus quod similique fuga ut voluptatibus? Consequatur sit ab debitis, ut nesciunt a, expedita voluptatum dolorum repellendus quos cumque praesentium!",
+      "price": 999,
+      "image": "product_images/eoeg920.webp",
+      "category": 4,
+      "subcategory": 7
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 17,
+    "fields": {
+      "title": "Lenovo Ideapad L340-15",
+      "slug": "lenovo-ideapad-l340-15",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat eaque tempora vel sunt. Molestias, culpa perspiciatis non voluptates, consectetur officiis quidem, repellat qui esse architecto obcaecati earum nesciunt? Nostrum optio natus quod similique fuga ut voluptatibus? Consequatur sit ab debitis, ut nesciunt a, expedita voluptatum dolorum repellendus quos cumque praesentium!",
+      "price": 40560,
+      "image": "product_images/l340-15.webp",
+      "category": 3,
+      "subcategory": 4
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 18,
+    "fields": {
+      "title": "ASUS VivoBook 15 X512",
+      "slug": "asus-vivobook-15-x512",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat eaque tempora vel sunt. Molestias, culpa perspiciatis non voluptates, consectetur officiis quidem, repellat qui esse architecto obcaecati earum nesciunt? Nostrum optio natus quod similique fuga ut voluptatibus? Consequatur sit ab debitis, ut nesciunt a, expedita voluptatum dolorum repellendus quos cumque praesentium!",
+      "price": 32800,
+      "image": "product_images/x512.webp",
+      "category": 3,
+      "subcategory": 4
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 19,
+    "fields": {
+      "title": "Lenovo Ideapad L340",
+      "slug": "lenovo-ideapad-l340",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat eaque tempora vel sunt. Molestias, culpa perspiciatis non voluptates, consectetur officiis quidem, repellat qui esse architecto obcaecati earum nesciunt? Nostrum optio natus quod similique fuga ut voluptatibus? Consequatur sit ab debitis, ut nesciunt a, expedita voluptatum dolorum repellendus quos cumque praesentium!",
+      "price": 74740,
+      "image": "product_images/l340-15_C98nCWV.webp",
+      "category": 3,
+      "subcategory": 4
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 20,
+    "fields": {
+      "title": "Xiaomi RedmiBook 14\"",
+      "slug": "xiaomi-redmibook-14",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat eaque tempora vel sunt. Molestias, culpa perspiciatis non voluptates, consectetur officiis quidem, repellat qui esse architecto obcaecati earum nesciunt? Nostrum optio natus quod similique fuga ut voluptatibus? Consequatur sit ab debitis, ut nesciunt a, expedita voluptatum dolorum repellendus quos cumque praesentium!",
+      "price": 39990,
+      "image": "product_images/redmibook.webp",
+      "category": 3,
+      "subcategory": 4
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 21,
+    "fields": {
+      "title": "Xiaomi Mi TV 4A 32 T2 31.5\"",
+      "slug": "xiaomi-mi-tv-4a-32-t2-315",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat eaque tempora vel sunt. Molestias, culpa perspiciatis non voluptates, consectetur officiis quidem, repellat qui esse architecto obcaecati earum nesciunt? Nostrum optio natus quod similique fuga ut voluptatibus? Consequatur sit ab debitis, ut nesciunt a, expedita voluptatum dolorum repellendus quos cumque praesentium!",
+      "price": 12990,
+      "image": "product_images/mi-tv-4a.webp",
+      "category": 4,
+      "subcategory": 9
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 22,
+    "fields": {
+      "title": "LG 55UM7300 55\"",
+      "slug": "lg-55um7300-55",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat eaque tempora vel sunt. Molestias, culpa perspiciatis non voluptates, consectetur officiis quidem, repellat qui esse architecto obcaecati earum nesciunt? Nostrum optio natus quod similique fuga ut voluptatibus? Consequatur sit ab debitis, ut nesciunt a, expedita voluptatum dolorum repellendus quos cumque praesentium!",
+      "price": 39990,
+      "image": "product_images/lg-55um7300.webp",
+      "category": 3,
+      "subcategory": 9
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 23,
+    "fields": {
+      "title": "LG OLED55C9P 54.6\"",
+      "slug": "lg-oled55c9p-546",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet corporis culpa, deserunt dolor ducimus explicabo id magni nulla officiis provident repellendus sapiente temporibus ullam. Aliquid at atque cupiditate delectus distinctio earum esse expedita facere impedit ipsam ipsum itaque libero, molestiae omnis quis quo reiciendis sapiente sit soluta, sunt velit vitae.",
+      "price": 129990,
+      "image": "product_images/lg-oled55c9p-54.webp",
+      "category": 4,
+      "subcategory": 9
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 24,
+    "fields": {
+      "title": "Samsung C24F390FHI 23.5\"",
+      "slug": "samsung-c24f390fhi-235",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet corporis culpa, deserunt dolor ducimus explicabo id magni nulla officiis provident repellendus sapiente temporibus ullam. Aliquid at atque cupiditate delectus distinctio earum esse expedita facere impedit ipsam ipsum itaque libero, molestiae omnis quis quo reiciendis sapiente sit soluta, sunt velit vitae.",
+      "price": 8990,
+      "image": "product_images/c24f390.webp",
+      "category": 3,
+      "subcategory": 5
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 25,
+    "fields": {
+      "title": "DELL P2419HC 23.8\"",
+      "slug": "dell-p2419hc-238",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet corporis culpa, deserunt dolor ducimus explicabo id magni nulla officiis provident repellendus sapiente temporibus ullam. Aliquid at atque cupiditate delectus distinctio earum esse expedita facere impedit ipsam ipsum itaque libero, molestiae omnis quis quo reiciendis sapiente sit soluta, sunt velit vitae.",
+      "price": 14990,
+      "image": "product_images/p2419hc.webp",
+      "category": 3,
+      "subcategory": 5
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 26,
+    "fields": {
+      "title": "BenQ GW2283 21.5\"",
+      "slug": "benq-gw2283-215",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet corporis culpa, deserunt dolor ducimus explicabo id magni nulla officiis provident repellendus sapiente temporibus ullam. Aliquid at atque cupiditate delectus distinctio earum esse expedita facere impedit ipsam ipsum itaque libero, molestiae omnis quis quo reiciendis sapiente sit soluta, sunt velit vitae.",
+      "price": 7210,
+      "image": "product_images/gw2283.webp",
+      "category": 3,
+      "subcategory": 5
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 27,
+    "fields": {
+      "title": "Philips 245E1S 23.8\"",
+      "slug": "philips-245e1s-238",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet corporis culpa, deserunt dolor ducimus explicabo id magni nulla officiis provident repellendus sapiente temporibus ullam. Aliquid at atque cupiditate delectus distinctio earum esse expedita facere impedit ipsam ipsum itaque libero, molestiae omnis quis quo reiciendis sapiente sit soluta, sunt velit vitae.",
+      "price": 14600,
+      "image": "product_images/philips-245e1s-23-8.webp",
+      "category": 3,
+      "subcategory": 5
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 28,
+    "fields": {
+      "title": "Xiaomi Mi Note 10 6/128GB",
+      "slug": "xiaomi-mi-note-10-6128gb",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet corporis culpa, deserunt dolor ducimus explicabo id magni nulla officiis provident repellendus sapiente temporibus ullam. Aliquid at atque cupiditate delectus distinctio earum esse expedita facere impedit ipsam ipsum itaque libero, molestiae omnis quis quo reiciendis sapiente sit soluta, sunt velit vitae.",
+      "price": 31990,
+      "image": "product_images/mi-note-10-6-128gb.webp",
+      "category": 4,
+      "subcategory": 8
+    }
+  },
+  {
+    "model": "shop.category",
+    "pk": 1,
+    "fields": {
+      "title": "\u0421\u043f\u043e\u0440\u0442 \u0438 \u043e\u0442\u0434\u044b\u0445",
+      "slug": "sport-i-otdyh"
+    }
+  },
+  {
+    "model": "shop.category",
+    "pk": 2,
+    "fields": {
+      "title": "\u041e\u0434\u0435\u0436\u0434\u0430 \u0438 \u043e\u0431\u0443\u0432\u044c",
+      "slug": "odezhda-i-obuv"
+    }
+  },
+  {
+    "model": "shop.category",
+    "pk": 3,
+    "fields": {
+      "title": "\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u043d\u0430\u044f \u0442\u0435\u0445\u043d\u0438\u043a\u0430",
+      "slug": "kompyuternaya-tehnika"
+    }
+  },
+  {
+    "model": "shop.category",
+    "pk": 4,
+    "fields": {
+      "title": "\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0438\u043a\u0430",
+      "slug": "elektronika"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 1,
+    "fields": {
+      "title": "\u0420\u0443\u0431\u0430\u0448\u043a\u0438",
+      "slug": "rubashki",
+      "category": 2
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 2,
+    "fields": {
+      "title": "\u041a\u043e\u0441\u0442\u044e\u043c\u044b",
+      "slug": "kostyumy",
+      "category": 2
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 3,
+    "fields": {
+      "title": "\u0422\u0443\u0444\u043b\u0438",
+      "slug": "tufli",
+      "category": 2
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 4,
+    "fields": {
+      "title": "\u041d\u043e\u0443\u0442\u0431\u0443\u043a\u0438",
+      "slug": "noutbuki",
+      "category": 3
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 5,
+    "fields": {
+      "title": "\u041c\u043e\u043d\u0438\u0442\u043e\u0440\u044b",
+      "slug": "monitory",
+      "category": 3
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 6,
+    "fields": {
+      "title": "\u041d\u0430\u0441\u0442\u043e\u043b\u044c\u043d\u044b\u0435 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u044b",
+      "slug": "nastolnye-kompyutery",
+      "category": 3
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 7,
+    "fields": {
+      "title": "\u041d\u0430\u0443\u0448\u043d\u0438\u043a\u0438",
+      "slug": "naushniki",
+      "category": 4
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 8,
+    "fields": {
+      "title": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b",
+      "slug": "smartfony",
+      "category": 4
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 9,
+    "fields": {
+      "title": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440\u044b",
+      "slug": "televizory",
+      "category": 4
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 10,
+    "fields": {
+      "title": "\u0422\u0440\u0435\u043d\u0430\u0436\u0435\u0440\u044b",
+      "slug": "trenazhery",
+      "category": 1
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 11,
+    "fields": {
+      "title": "\u0412\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u044b",
+      "slug": "velosipedy",
+      "category": 1
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 12,
+    "fields": {
+      "title": "\u0421\u043a\u0435\u0439\u0442\u0431\u043e\u0440\u0434\u044b",
+      "slug": "skejtbordy",
+      "category": 1
+    }
+  },
+  {
+    "model": "shop.article",
+    "pk": 1,
+    "fields": {
+      "title": "\u0412\u044b\u0431\u043e\u0440 \u043b\u0443\u0447\u0448\u0435\u0433\u043e \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u0430 \u0434\u043e 20 000 \u0440\u0443\u0431.",
+      "subject": 8,
+      "slug": "vybor-luchshego-smartfona-do-20-000-rub",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci architecto corporis debitis dicta dignissimos dolore doloremque ducimus ea eligendi esse est ex facere illo itaque magni maxime modi molestias obcaecati omnis, optio pariatur qui reiciendis sapiente tenetur voluptas voluptate voluptates. Atque error fuga harum iusto necessitatibus non obcaecati officiis possimus sint suscipit. Alias exercitationem inventore, ipsa nemo nesciunt odit quas quo sit sunt temporibus? Alias blanditiis cum debitis dolores doloribus eaque et eveniet fugiat illo inventore maiores minus nemo neque nesciunt, nisi, perferendis perspiciatis quae voluptatum! Aperiam architecto aut beatae esse, molestiae numquam officia placeat qui, recusandae, reiciendis sit.",
+      "date_posted": "2020-04-05T12:00:00Z",
+      "products": [
+        2,
+        3,
+        6
+      ]
+    }
+  },
+  {
+    "model": "shop.article",
+    "pk": 2,
+    "fields": {
+      "title": "\u0412\u044b\u0431\u043e\u0440 \u043f\u0440\u0435\u043c\u0438\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u0430",
+      "subject": 8,
+      "slug": "vybor-premialnogo-smartfona",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci architecto corporis debitis dicta dignissimos dolore doloremque ducimus ea eligendi esse est ex facere illo itaque magni maxime modi molestias obcaecati omnis, optio pariatur qui reiciendis sapiente tenetur voluptas voluptate voluptates. Atque error fuga harum iusto necessitatibus non obcaecati officiis possimus sint suscipit. Alias exercitationem inventore, ipsa nemo nesciunt odit quas quo sit sunt temporibus? Alias blanditiis cum debitis dolores doloribus eaque et eveniet fugiat illo inventore maiores minus nemo neque nesciunt, nisi, perferendis perspiciatis quae voluptatum! Aperiam architecto aut beatae esse, molestiae numquam officia placeat qui, recusandae, reiciendis sit.",
+      "date_posted": "2020-03-15T12:00:00Z",
+      "products": [
+        1,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "model": "shop.article",
+    "pk": 3,
+    "fields": {
+      "title": "\u041b\u0443\u0447\u0448\u0438\u0435 \u0431\u044e\u0434\u0436\u0435\u0442\u043d\u044b\u0435 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b \u044d\u0442\u043e\u0433\u043e \u0433\u043e\u0434\u0430",
+      "subject": 8,
+      "slug": "luchshie-byudzhetnye-smartfony-etogo-goda",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci architecto corporis debitis dicta dignissimos dolore doloremque ducimus ea eligendi esse est ex facere illo itaque magni maxime modi molestias obcaecati omnis, optio pariatur qui reiciendis sapiente tenetur voluptas voluptate voluptates. Atque error fuga harum iusto necessitatibus non obcaecati officiis possimus sint suscipit. Alias exercitationem inventore, ipsa nemo nesciunt odit quas quo sit sunt temporibus? Alias blanditiis cum debitis dolores doloribus eaque et eveniet fugiat illo inventore maiores minus nemo neque nesciunt, nisi, perferendis perspiciatis quae voluptatum! Aperiam architecto aut beatae esse, molestiae numquam officia placeat qui, recusandae, reiciendis sit.",
+      "date_posted": "2020-04-10T00:00:00Z",
+      "products": [
+        4,
+        6,
+        11
+      ]
+    }
+  },
+  {
+    "model": "shop.article",
+    "pk": 4,
+    "fields": {
+      "title": "\u0421\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u0435: Lenovo Ideadpad \u043f\u0440\u043e\u0442\u0438\u0432 Xiaomi RedmiBook",
+      "subject": 4,
+      "slug": "sravnenie-lenovo-ideadpad-protiv-xiaomi-redmibook",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam consectetur culpa doloremque dolores, dolorum eius, enim, error fugit illum impedit ipsa iste labore libero magni maxime mollitia natus nihil obcaecati odit placeat quaerat rerum sed tempora ullam vel veritatis? Ab adipisci commodi dignissimos distinctio exercitationem minus perferendis velit. Adipisci cumque eius est in magni neque tempora. Culpa fuga iusto libero odio pariatur perspiciatis praesentium quaerat tenetur vitae voluptates. Commodi doloremque eos ipsum, laboriosam repellat soluta voluptatem! Adipisci amet autem ipsum iure laudantium omnis saepe. Accusantium cum, cumque dolor eius modi nemo nisi, quae quibusdam, similique tempore unde voluptas voluptatum?",
+      "date_posted": "2020-04-08T00:00:00Z",
+      "products": [
+        17,
+        20
+      ]
+    }
+  },
+  {
+    "model": "shop.article",
+    "pk": 5,
+    "fields": {
+      "title": "\u041e\u0431\u0437\u043e\u0440 \u0442\u043e\u043f\u043e\u0432\u043e\u0433\u043e OLED-\u0442\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440\u0430 LG OLED55C9P",
+      "subject": 9,
+      "slug": "obzor-topovogo-oled-televizora-lg-oled55c9p",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet asperiores aut dignissimos dolores doloribus dolorum earum eum exercitationem, facilis in incidunt iste iure, nemo nisi odit omnis perspiciatis praesentium quaerat quas quisquam tempora vel vitae voluptas voluptatem. Alias distinctio dolor ex illo iusto libero placeat possimus recusandae reiciendis veritatis! Ab ad animi aperiam aspernatur, autem blanditiis consequatur culpa deleniti dolores dolorum eius est, facere illo inventore labore laborum molestiae numquam praesentium quaerat quibusdam quidem quod rem repellat repudiandae sequi sit soluta suscipit temporibus vitae voluptatum. Iusto neque quisquam reiciendis sunt ut? Aut explicabo, impedit iure magni omnis totam. Sit.",
+      "date_posted": "2020-03-13T00:00:00Z",
+      "products": [
+        23
+      ]
+    }
+  },
+  {
+    "model": "shop.article",
+    "pk": 6,
+    "fields": {
+      "title": "Sennheiser HD 206: \u043f\u0440\u043e\u0432\u0435\u0440\u0435\u043d\u043d\u0430\u044f \u043a\u043b\u0430\u0441\u0441\u0438\u043a\u0430",
+      "subject": 7,
+      "slug": "sennheiser-hd-206-proverennaya-klassika",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet asperiores aut dignissimos dolores doloribus dolorum earum eum exercitationem, facilis in incidunt iste iure, nemo nisi odit omnis perspiciatis praesentium quaerat quas quisquam tempora vel vitae voluptas voluptatem. Alias distinctio dolor ex illo iusto libero placeat possimus recusandae reiciendis veritatis! Ab ad animi aperiam aspernatur, autem blanditiis consequatur culpa deleniti dolores dolorum eius est, facere illo inventore labore laborum molestiae numquam praesentium quaerat quibusdam quidem quod rem repellat repudiandae sequi sit soluta suscipit temporibus vitae voluptatum. Iusto neque quisquam reiciendis sunt ut? Aut explicabo, impedit iure magni omnis totam. Sit.",
+      "date_posted": "2020-04-16T00:00:00Z",
+      "products": [
+        12
+      ]
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add \u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c",
+      "content_type": 6,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change \u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c",
+      "content_type": 6,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete \u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c",
+      "content_type": 6,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view \u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c",
+      "content_type": 6,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add \u0420\u0430\u0437\u0434\u0435\u043b",
+      "content_type": 7,
+      "codename": "add_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change \u0420\u0430\u0437\u0434\u0435\u043b",
+      "content_type": 7,
+      "codename": "change_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete \u0420\u0430\u0437\u0434\u0435\u043b",
+      "content_type": 7,
+      "codename": "delete_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view \u0420\u0430\u0437\u0434\u0435\u043b",
+      "content_type": 7,
+      "codename": "view_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add \u0417\u0430\u043a\u0430\u0437",
+      "content_type": 8,
+      "codename": "add_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change \u0417\u0430\u043a\u0430\u0437",
+      "content_type": 8,
+      "codename": "change_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete \u0417\u0430\u043a\u0430\u0437",
+      "content_type": 8,
+      "codename": "delete_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view \u0417\u0430\u043a\u0430\u0437",
+      "content_type": 8,
+      "codename": "view_order"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add \u041f\u043e\u0434\u0440\u0430\u0437\u0434\u0435\u043b",
+      "content_type": 9,
+      "codename": "add_subcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change \u041f\u043e\u0434\u0440\u0430\u0437\u0434\u0435\u043b",
+      "content_type": 9,
+      "codename": "change_subcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete \u041f\u043e\u0434\u0440\u0430\u0437\u0434\u0435\u043b",
+      "content_type": 9,
+      "codename": "delete_subcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view \u041f\u043e\u0434\u0440\u0430\u0437\u0434\u0435\u043b",
+      "content_type": 9,
+      "codename": "view_subcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 10,
+      "codename": "add_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 10,
+      "codename": "change_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 10,
+      "codename": "delete_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 10,
+      "codename": "view_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add \u0421\u043e\u0441\u0442\u0430\u0432 \u0437\u0430\u043a\u0430\u0437\u0430",
+      "content_type": 11,
+      "codename": "add_orderproducts"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change \u0421\u043e\u0441\u0442\u0430\u0432 \u0437\u0430\u043a\u0430\u0437\u0430",
+      "content_type": 11,
+      "codename": "change_orderproducts"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete \u0421\u043e\u0441\u0442\u0430\u0432 \u0437\u0430\u043a\u0430\u0437\u0430",
+      "content_type": 11,
+      "codename": "delete_orderproducts"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view \u0421\u043e\u0441\u0442\u0430\u0432 \u0437\u0430\u043a\u0430\u0437\u0430",
+      "content_type": 11,
+      "codename": "view_orderproducts"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add \u041e\u0442\u0437\u044b\u0432",
+      "content_type": 12,
+      "codename": "add_feedback"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change \u041e\u0442\u0437\u044b\u0432",
+      "content_type": 12,
+      "codename": "change_feedback"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete \u041e\u0442\u0437\u044b\u0432",
+      "content_type": 12,
+      "codename": "delete_feedback"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view \u041e\u0442\u0437\u044b\u0432",
+      "content_type": 12,
+      "codename": "view_feedback"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+      "name": "Can add \u0421\u0442\u0430\u0442\u044c\u044f",
+      "content_type": 13,
+      "codename": "add_article"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+      "name": "Can change \u0421\u0442\u0430\u0442\u044c\u044f",
+      "content_type": 13,
+      "codename": "change_article"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+      "name": "Can delete \u0421\u0442\u0430\u0442\u044c\u044f",
+      "content_type": 13,
+      "codename": "delete_article"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+      "name": "Can view \u0421\u0442\u0430\u0442\u044c\u044f",
+      "content_type": 13,
+      "codename": "view_article"
+    }
+  },
+  {
+    "model": "shop.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$180000$8G308LAHdYQG$t6ZSu3NXRhHOVtTeaBO8zIDIGatAn/A8/1xkTKbFUpE=",
+      "last_login": "2020-05-21T09:55:37.037Z",
+      "is_superuser": true,
+      "email": "admin@admin.ru",
+      "date_joined": "2020-04-12",
+      "is_staff": true,
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2020-05-21T10:07:04.954Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "12",
+      "object_repr": "Sennheiser HD 206 \u041d\u0430\u0443\u0448\u043d\u0438\u043a\u0438 1290",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2020-05-21T10:08:31.090Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "13",
+      "object_repr": "Sony MDR-7506 \u041d\u0430\u0443\u0448\u043d\u0438\u043a\u0438 8800",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2020-05-21T10:09:34.391Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "14",
+      "object_repr": "Audio-Technica ATH-M20x \u041d\u0430\u0443\u0448\u043d\u0438\u043a\u0438 4160",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2020-05-21T10:10:51.907Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "15",
+      "object_repr": "JBL C100SI \u041d\u0430\u0443\u0448\u043d\u0438\u043a\u0438 599",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2020-05-21T10:12:56.523Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "16",
+      "object_repr": "Samsung EO-EG920 \u041d\u0430\u0443\u0448\u043d\u0438\u043a\u0438 999",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2020-05-21T10:16:55.108Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "17",
+      "object_repr": "Lenovo Ideapad L340-15 \u041d\u043e\u0443\u0442\u0431\u0443\u043a\u0438 40560",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2020-05-21T10:18:14.361Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "18",
+      "object_repr": "ASUS VivoBook 15 X512 \u041d\u043e\u0443\u0442\u0431\u0443\u043a\u0438 32800",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2020-05-21T10:19:22.739Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "19",
+      "object_repr": "Lenovo Ideapad L340 \u041d\u043e\u0443\u0442\u0431\u0443\u043a\u0438 74740",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2020-05-21T10:22:23.193Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "20",
+      "object_repr": "Xiaomi RedmiBook 14\" \u041d\u043e\u0443\u0442\u0431\u0443\u043a\u0438 39990",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2020-05-21T10:24:05.058Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "21",
+      "object_repr": "Xiaomi Mi TV 4A 32 T2 31.5\" \u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440\u044b 12990",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2020-05-21T10:25:24.172Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "22",
+      "object_repr": "LG 55UM7300 55\" \u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440\u044b 39990",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2020-05-21T10:25:44.090Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "22",
+      "object_repr": "LG 55UM7300 55\" \u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440\u044b 39990",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2020-05-21T10:40:09.537Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "23",
+      "object_repr": "LG OLED55C9P 54.6\" \u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440\u044b 129990",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2020-05-21T10:41:34.690Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "24",
+      "object_repr": "Samsung C24F390FHI 23.5\" \u041c\u043e\u043d\u0438\u0442\u043e\u0440\u044b 8990",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2020-05-21T10:42:19.669Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "25",
+      "object_repr": "DELL P2419HC 23.8\" \u041c\u043e\u043d\u0438\u0442\u043e\u0440\u044b 14990",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2020-05-21T10:43:32.607Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "26",
+      "object_repr": "BenQ GW2283 21.5\" \u041c\u043e\u043d\u0438\u0442\u043e\u0440\u044b 7210",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2020-05-21T10:46:25.926Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "27",
+      "object_repr": "Philips 245E1S 23.8\" \u041c\u043e\u043d\u0438\u0442\u043e\u0440\u044b 14600",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2020-05-21T10:47:48.516Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "28",
+      "object_repr": "Xiaomi Mi Note 10 6/128GB \u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b 31990",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2020-05-21T11:15:11.596Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "4",
+      "object_repr": "\u0421\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u0435: Lenovo Ideadpad \u043f\u0440\u043e\u0442\u0438\u0432 Xiaomi RedmiBook",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2020-05-21T11:21:45.221Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "5",
+      "object_repr": "\u041e\u0431\u0437\u043e\u0440 \u0442\u043e\u043f\u043e\u0432\u043e\u0433\u043e OLED-\u0442\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440\u0430 LG OLED55C9P",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2020-05-21T11:34:06.804Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "6",
+      "object_repr": "Sennheiser HD 206: \u043f\u0440\u043e\u0432\u0435\u0440\u0435\u043d\u043d\u0430\u044f \u043a\u043b\u0430\u0441\u0441\u0438\u043a\u0430",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  }
+]

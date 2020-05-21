@@ -36,19 +36,15 @@ class Login(LoginView):
 
 
 class IndexView(ListView):
-    template_name = 'shop/index.html'
+    template_name = 'shop/home.html'
     model = Article
-    context_object_name = 'articles_phones'
+    context_object_name = 'articles'
     ordering = ['-date_posted']
 
     def get_queryset(self):
         queryset = super().get_queryset()
-        return queryset.filter(subject_id=8). \
-            prefetch_related(
-            'products',
-            'products__category',
-            'products__subcategory',
-        )
+        return queryset. \
+            prefetch_related('products', 'products__category', 'products__subcategory',)
 
 
 class ArticleView(DetailView):
@@ -83,7 +79,7 @@ class SubcategoryList(ListView):
 
 class ProductList(ListView):
     model = Product
-    paginate_by = 3
+    paginate_by = 4
 
     def dispatch(self, request, *args, **kwargs):
         self.slug = self.kwargs.get('subcategory')

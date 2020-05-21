@@ -14,7 +14,7 @@
     </div>
     <div class="container mb-5">
         <div class="row">
-            {% for article in articles_phones %}
+            {% for article in articles %}
                 <div class="col-md-4">
                     <small>{{ article.date_posted|naturalday }}</small>
                     <a href="{{ article.get_absolute_url }}"><h3>{{ article.title }}</h3></a>
