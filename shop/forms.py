@@ -15,7 +15,6 @@ class FeedbackForm(forms.ModelForm):
         model = Feedback
         fields = '__all__'
         widgets = {
-            'text': forms.Textarea,
             'rating': forms.RadioSelect,
             'product': forms.HiddenInput,
         }

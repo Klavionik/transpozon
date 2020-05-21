@@ -13,10 +13,10 @@ urlpatterns = [
          views.Login.as_view(template_name='shop/login.html'),
          name='login'),
     path('logout/',
-         auth_views.LogoutView.as_view(template_name='shop/index.html'),
+         auth_views.LogoutView.as_view(template_name='shop/home.html'),
          name='logout'),
-    path('', views.IndexView.as_view(),
-         name='index'),
+    path('', views.HomeView.as_view(),
+         name='home'),
     path('cart/',
          views.CartView.as_view(),
          name='cart'),
@@ -34,7 +34,7 @@ urlpatterns = [
     path('catalog/<slug:category>/<slug:subcategory>/<slug:product>/',
          views.ProductView.as_view(),
          name='product'),
-    path('article/<slug:title>',
+    path('article/<slug:title>/',
          views.ArticleView.as_view(),
          name='article')
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

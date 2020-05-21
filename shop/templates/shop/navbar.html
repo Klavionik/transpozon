@@ -1,6 +1,6 @@
 {% load static %}
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="{% url 'index' %}">Транспозон</a>
+    <a class="navbar-brand" href="{% url 'home' %}">Транспозон</a>
     <img src="{% static 'logo.svg' %}" alt="интернет-магазин" width="42" height="42">
     <button class="navbar-toggler" type="button" data-toggle="collapse"
             data-target="#mainNavbar">
@@ -10,7 +10,7 @@
     <div class="collapse navbar-collapse" id="mainNavbar">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="{% url 'index' %}">
+                <a class="nav-link" href="{% url 'home' %}">
                     Главная
                 </a>
             </li>
