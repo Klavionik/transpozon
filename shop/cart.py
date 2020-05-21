@@ -19,6 +19,11 @@ class Item:
     def __str__(self):
         return f'{self.title} {self.qty} {self.total_price}'
 
+    def __eq__(self, other):
+        if self.id == other.id and self.qty == other.qty:
+            return True
+        return False
+
 
 class Cart:
 
@@ -44,3 +49,8 @@ class Cart:
 
     def __str__(self):
         return {self.raw_cart}
+
+    def __eq__(self, other):
+        if self.items == other.items:
+            return True
+        return False

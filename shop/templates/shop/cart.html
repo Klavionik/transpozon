@@ -45,7 +45,10 @@
                         <h5 class="">Сумма заказа:</h5>
                         <h5 class="">{{ cart.subtotal|intcomma }} руб.</h5>
                     </div>
-                    <a href="{% url 'new-order' %}" type="submit" class="btn btn-block btn-success">Оформить заказ</a>
+                    <form action="{% url 'new-order' %}" method="POST">
+                        {% csrf_token %}
+                        <button class="btn btn-block btn-success">Оформить заказ</button>
+                    </form>
                 {% else %}
                     <h4>Ваша корзина пуста.<br>Добавьте в нее что-нибудь!</h4>
                 {% endif %}

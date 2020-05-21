@@ -201,6 +201,9 @@ class NewOrder(LoginRequiredMixin, TemplateView):
     login_url = reverse_lazy('login')
 
     def get(self, request, *args, **kwargs):
+        return redirect('cart')
+
+    def post(self, request, *args, **kwargs):
         if cart := self.request.session.get('cart'):
             order_id = Order.checkout(request.user, cart)
             del request.session['cart']
